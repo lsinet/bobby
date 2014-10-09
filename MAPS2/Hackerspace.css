@@ -1,0 +1,240 @@
+html 
+{ 
+height: 100% 
+}
+
+body 
+{ 
+height: 100%; margin: 0; padding:0;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+line-height: 1.3;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+
+h3
+{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+p
+{
+color: #8A7C7C;
+}
+
+.thumbnail
+{
+border: none;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+.navbar
+{
+z-index: 1500;
+margin-bottom : 0;
+  opacity: 0.85;
+background-color: #f8f8f8;
+background-image: none;
+}
+
+.navbar .ul 
+{
+display: inline;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+
+.container
+{
+font-size: 15px;
+}
+
+.maincontent
+{
+margin-top: 60px;
+}
+
+.user-header
+{
+text-align: center;
+}
+
+.user-pic
+{
+margin-bottom: 5px;
+margin-top: 120px;
+}
+
+.user-name
+{
+color: #AF2C2C;
+text-align: center;
+}
+
+.user-contact
+{
+margin-bottom: 8px;
+}
+
+.user-contact img
+{
+margin-left: 4px;
+margin-right: 4px;
+}
+
+.user-subtitle
+{
+text-align: center;
+}
+
+.map-pin
+{
+position: relative;
+top: 2px;
+display: inline-block;
+font-size: 18px;
+}
+
+.user-place .city
+{
+display: inline-block;
+margin-left: 3px;
+font-size: 13px;
+}
+
+.user-skills
+{
+margin-top: 15px;
+}
+
+.user-skills span
+{
+margin-left: 3px;
+}
+
+
+
+/* Project list as on homepage */
+
+.project-list
+{
+margin-top: 50px;
+}
+
+.posts-group
+{
+margin-bottom: 50px;
+}
+
+.projectpost
+{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.projectpost > .col-md-1
+{
+text-align: center; 
+margin-top: 16px;
+font-size: 18px;
+}
+
+.project-title
+{
+font-size: 22px;
+display: inline-block;
+color: #2C1A1A;
+}
+
+.project-calls
+{
+position: relative;
+bottom: 5px; 
+left: 12px;
+display: inline-block;
+}
+
+.project-punchline
+{
+display: block;
+line-height: 1.2;
+font-size: 15px;
+color: #8A7C7C;
+}
+
+.project-links
+{
+text-align: center;
+margin-top: 11px;
+}
+
+.project-links > a 
+{
+display: inline;
+margin-left: 15px;
+margin-right: 15px;
+font-size: 16px;
+}
+
+.project-links > span 
+{
+display: inline;
+margin-left: 15px;
+margin-right: 15px;
+font-size: 16px;
+}
+
+.project-links > .project-comments
+{
+max-width: 32px;
+height: 22px;
+display: inline;
+margin-left: 15px;
+margin-right: 15px;
+font-size: 16px;
+text-align: center; 
+
+}
+
+.project-comments > img
+{
+margin-right: 4px;
+position: relative;
+bottom: 1px;
+}
+
+.project-comments > p
+{
+display: inline-block;
+color: #c3c3c3;
+margin-top: 15px;
+}
+
+
+
+/* Displaying members */
+
+.space-members
+{
+margin-left: 40px;
+margin-bottom: 30px;
+}

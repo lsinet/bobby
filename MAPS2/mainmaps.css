@@ -1,0 +1,48 @@
+html 
+{ 
+height: 100% 
+}
+
+body 
+{ 
+height: 100%; margin: 0; padding: 0 
+}
+
+#map-canvas 
+{ 
+height: 100%;
+z-index: 0;
+width: 100%;
+top: -117px;
+}
+
+.navbar
+{
+z-index: 1500;
+margin-bottom : 0;
+}
+
+.navbar .ul 
+{
+display: inline;
+}
+
+.col-md-3
+{
+z-index: 10;
+position: relative;
+top: 60px;
+left: 70px;
+background-color: transparent;
+width: 350px;
+}
+
+.col-md-3 h3
+{
+font-size: 28px;
+}
+
+.col-md-3 p 
+{
+font-size: 16px;
+}

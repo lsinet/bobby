@@ -1,0 +1,345 @@
+html 
+{ 
+height: 100% 
+}
+
+body 
+{ 
+height: 100%; margin: 0; padding:0;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+line-height: 1.3;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+
+h3
+{
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+p
+{
+color: #8A7C7C;
+}
+
+.thumbnail
+{
+border: none;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+.navbar
+{
+z-index: 1500;
+margin-bottom : 0;
+  opacity: 0.85;
+background-color: #f8f8f8;
+background-image: none;
+}
+
+.navbar .ul 
+{
+display: inline;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+
+.container
+{
+font-size: 15px;
+}
+
+.maincontent
+{
+margin-top: 80px;
+}
+
+
+/* Top presentation post of the project - copy of the one in Projects.html */
+
+.projectpost
+{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.projectpost > .col-md-1
+{
+text-align: center; 
+margin-top: 16px;
+font-size: 18px;
+}
+
+
+.project-title
+{
+font-size: 22px;
+display: inline-block;
+}
+
+.project-calls
+{
+position: relative;
+bottom: 5px; 
+left: 12px;
+display: inline-block;
+font-size: 13px;
+}
+
+.project-punchline
+{
+display: block;
+line-height: 1.2;
+font-size: 15px;
+color: #8A7C7C;
+}
+
+.project-links
+{
+text-align: center;
+margin-top: 11px;
+}
+
+.project-links > a 
+{
+display: inline-block;
+margin-left: 15px;
+margin-right: 50px;
+margin-top: 15px;
+font-size: 16px;
+}
+
+.project-links > span 
+{
+display: inline;
+margin-left: 15px;
+margin-right: 15px;
+font-size: 16px;
+}
+
+.project-links > .project-comments
+{
+max-width: 32px;
+height: 22px;
+display: inline;
+margin-left: 15px;
+margin-right: 15px;
+font-size: 16px;
+text-align: center; 
+
+}
+
+.project-comments > img
+{
+margin-right: 4px;
+position: relative;
+bottom: 1px;
+}
+
+.project-comments > p
+{
+display: inline-block;
+color: #c3c3c3;
+margin-top: 15px;
+}
+
+
+/* Navbar to go to Comments, Maps & Call 4 Contributors */
+
+.project-nav > li > a
+{
+height: 41px;
+border-radius: 0;
+border: 1px solid #fff;
+}
+
+
+/* More info on the project */
+
+.advanced-content
+{
+margin-top: 50px;
+margin-bottom: 70px;
+}
+
+.userdetails
+{
+text-align: center;
+
+}
+
+.user-name
+{
+color: #AF2C2C;
+}
+
+.user-pic
+{
+margin-bottom: 5px;
+}
+
+.project-space
+{
+margin-top: 50px;
+}
+
+.project-space-title
+{
+font-size: 20px;
+display: inline-block;
+margin-bottom: 10px;
+}
+
+.map-pin
+{
+position: relative;
+bottom: 5px; 
+left: 12px;
+display: inline-block;
+font-size: 22px;
+}
+
+.project-space > ul
+{
+padding-left: 0;
+color: #8A7C7C
+}
+
+
+.project-description
+{
+;
+}
+
+.project-doc 
+{
+margin-top: 50px;
+}
+
+.btn-dowload
+{
+}
+/* If iframe for Telescope
+
+iframe
+{
+
+margin: 0;
+padding: 0;
+border: none;
+width: value;
+height: value;
+}
+
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+/* Sidebar navigation */
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+
+
+#map-canvas 
+{ 
+height: 100%;
+z-index: 0;
+}
+
+
+
+
+
+
+.view-discussion .comment-image {
+margin-top: -2px;
+}
+
+
+
+.call-contrib .col-md-1
+{
+text-align: center; 
+margin-top: 32px;
+}
+
+.call-contrib .col-md-2
+{
+text-align: center; 
+margin-top: 25px;
+font-size: 18px;
+}
+
+.call-contrib-list > li
+{
+border-bottom: 1px solid #eeeeee;
+}
+
+.call-contrib label
+{
+
+}
+
+.contrib-preheader 
+{
+min-height: 56px;
+}
+
+.contrib-submit
+{
+margin-top: 15px;
+text-align: center;
+border-bottom: none;
+}
+
+.contrib-submit span
+{
+display: inline;
+}
+
+.contrib-submit .submit
+{
+margin-left: 20px;
+font-size: 13px;
+font-weight: normal;
+}
+
+.contrib-submit a
+{
+color: #fff;
+}
